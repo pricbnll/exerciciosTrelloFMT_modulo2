@@ -9,17 +9,17 @@ Este respositório é para minha prática e resolução dos exercícios proposto
 
 São 3 aulas na semana (terças, quintas e nas sextas com resolução dos exercícios e tira dúvidas das 19:00 as 22:00 horas) com início no dia 20 de maio de 2024 ate dia 02 de agosto de 2024.
 
-* SEMANA 1 **com o professor Nicholas Macdedo**
+* SEMANA 1 **com o professor Nicholas Macedo**
        - Introdução a HTML, CSS
-* SEMANA 2 **com o professor **
+* SEMANA 2 **com o professor**
        - 
 * SEMANA 3 **com o professor**
        - 
-* SEMANA 4 **com a professora **
+* SEMANA 4 **com a professora**
        - 
 * SEMANA 5 **com o professor**
        - 
-* SEMANA 6 **com a professora*
+* SEMANA 6 **com a professora**
        - 
 * SEMANA 7**com o professor**
        - 
@@ -42,8 +42,7 @@ São 3 aulas na semana (terças, quintas e nas sextas com resolução dos exerc�
 ## 🧑🏻‍🏫 Professores
 
 * **Nicholas Macdedo** - [GitHub](https://github.com/nicholasmacedoo)
-
- 
+*  
 
 ## 📄 Acompanhe as resoluções e dicas de aulas
 

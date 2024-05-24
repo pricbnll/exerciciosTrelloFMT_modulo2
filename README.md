@@ -1,4 +1,4 @@
-# MÓDULO2
+*# MÓDULO2
 
 # 🚦 Exercícios do Trello
 
@@ -17,7 +17,7 @@ São 3 aulas na semana (terças, quintas e nas sextas com resolução dos exerc�
        - 
 * SEMANA 4 **com a professora **
        - 
-* SEMANA 5 **com o professor Nicholas Macdedo**
+* SEMANA 5 **com o professor**
        - 
 * SEMANA 6 **com a professora*
        - 

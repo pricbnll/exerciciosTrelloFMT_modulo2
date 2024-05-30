@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios do Trello [M2S02]</title>
+
+        <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>[M2S02] Ex 1 - Criando uma Página Web Simples</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem numquam ipsum a consequuntur nam, expedita illo dicta hic officia dolorum.</p>
+
+    <ul>
+        <li>Item1</li>
+        <li>Item2</li>
+        <li>Item3</li>
+    </ul>
+
+    <form>
+        <div class="form">
+            <label for="name">Nome:</label>
+            <input id="name" type="text" autocomplete="name">           
+        </div>
+        <div class="form">
+            <label for="lastName">Sobrenome:</label>
+            <input id="lastName" type="text" autocomplete="family-name">
+        </div>
+        <div class="form">
+            <label for="msg">Mensagem:</label>
+            <input id="msg" type="text" autocomplete="off">
+        </div>
+        <button type="button" onclick="enviar()">Enviar</button>
+        
+        <button type="button" onclick="limpar()">Limpar</button>
+    </form>
+    <script>
+        
+        function enviar(){
+            const name = document.getElementById("name").value
+            const lastName = document.getElementById("lastName").value
+            const msg = document.getElementById("msg").value
+            try {
+                if (!name || !lastName || !msg) {
+                    console.log("Todos os campos são obrigatórios");
+                    return;
+                }
+                const completeName = name + " " + lastName;
+                console.log(`Nome Completo: ${completeName}`);
+                console.log(`Mensagem: ${msg}`);
+            } catch (error) {
+                console.error("Algo deu errado!", error);
+                }
+            }
+
+        function limpar(){
+            try {
+                document.getElementById("name").value = '';
+                document.getElementById("lastName").value = '';
+                document.getElementById("msg").value = ''; 
+                
+            } catch (error) {
+                console.error("Algo deu errado!", error);
+            }
+        }
+
+        </script>
+
+</body>
+</html>

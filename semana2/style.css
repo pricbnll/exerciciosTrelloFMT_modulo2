@@ -1,0 +1,32 @@
+h1 {
+    color: blue;
+}
+
+p {
+    background-color: aqua;
+    font-size: 20px;
+}
+
+ul {
+    margin: 30px;
+
+}
+
+li {
+    text-decoration: underline;
+    color:blueviolet
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+button{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 15px
+}

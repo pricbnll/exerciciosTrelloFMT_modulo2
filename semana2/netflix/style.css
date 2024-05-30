@@ -1,0 +1,84 @@
+
+* {
+    list-style: none;
+    margin: 0;
+    color: white;
+    font-family: 'Inter', sans-serif; 
+}
+
+body {
+    /* height: 100vh; */
+    /* width: 1512px;
+    height: 2266.31px; 
+    margin-top: -515px;
+    margin-left: -756px; */
+    background-image: url("/exerciciosTrelloFMT_modulo2/semana2/netflix/assets/poster.png");
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    /* background-color:rgba(0, 0, 0, 0.75); */
+    
+}
+
+.header {
+    width: 60vw;
+    /* height: 850px; */
+    /* background-color: aqua; */
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20vw;
+    margin: auto;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    margin: 0 50px;
+    width: 80vw;
+    height: 350px; 
+    position: relative
+
+    /* background-color: aliceblue; */
+}
+
+.content {
+    width: 200%;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    background-color: blue;
+}
+
+.film {
+    display: flex;
+    flex-direction: column;
+}
+/* 
+.poster {
+    /* width: 392px;
+    height: 580px; */
+    /* margin-top: 201px ;
+    margin-left: 870px; 
+}
+*/
+
+/* .social_sharing {
+    display: flex;
+    position: relative;
+    height: fit-content;
+} */
+
+.social_sharing li{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* position: fixed;
+    z-index: 1; */
+    /* height: 100vw; */
+    background-color: brown;
+}

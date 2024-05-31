@@ -2,7 +2,7 @@
 
 # 🚦 Exercícios do Trello
 
-Este respositório é para minha prática e resolução dos exercícios proposto pelos professores durente o **módulo 2** no curso **FuturoDev trilha TRIP** o qual estou inserida a desenvolver neste curso ofertado pelo **FloripaMaisTech** com a Lab365, Senai e Acate/SC.
+Este repositório é para minha prática e resolução dos exercícios proposto pelos professores durante o **módulo 2** no curso **FuturoDev trilha TRIP** o qual estou inserida a desenvolver neste curso ofertado pelo **FloripaMaisTech** com a Lab365, Senai e Acate/SC.
 
 
 ## 💻 Sobre cada semanas
@@ -11,8 +11,10 @@ São 3 aulas na semana (terças, quintas e nas sextas com resolução dos exerc�
 
 * SEMANA 1 **com o professor Nicholas Macedo**
        - Introdução a HTML, CSS
-* SEMANA 2 **com o professor**
-       - 
+* SEMANA 2 **com o professor Yan Esteves**
+       - HTL, CSS, Atributos de Eventos
+       - Display, flexbox, Display Grid
+       * Dois desafios: calculadora simples e layout da Netflix
 * SEMANA 3 **com o professor**
        - 
 * SEMANA 4 **com a professora**
@@ -41,8 +43,8 @@ São 3 aulas na semana (terças, quintas e nas sextas com resolução dos exerc�
 
 ## 🧑🏻‍🏫 Professores
 
-* **Nicholas Macdedo** - [GitHub](https://github.com/nicholasmacedoo)
-*  
+* **Nicholas Macedo** - [GitHub](https://github.com/nicholasmacedoo)
+* **Yan Esteves** - [GitHub](https://github.com/yanestevesufjf)
 
 ## 📄 Acompanhe as resoluções e dicas de aulas
 
@@ -51,7 +53,7 @@ São 3 aulas na semana (terças, quintas e nas sextas com resolução dos exerc�
 
 ## 🎁 Expressões de gratidão
 
-* Adorando este curso super podendo fazer perguntas para embasar meu rarciocínio 📢;
+* Adorando este curso super podendo fazer perguntas para embasar meu raciocínio 📢;
 * Lab365 e todos os monitores;
 * Qualquer dúvida ou sugestão de melhorar o código eu aceito;
 * Um agradecimento publicamente 🫂 aos melhores amigos de turma que podia ter - TRIP e NATURE!

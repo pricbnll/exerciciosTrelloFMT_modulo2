@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
 h1 {
     color: blue;
 }
@@ -23,6 +28,10 @@ form {
     width: 300px;
     padding: 10px;
     background-color: antiquewhite;
+}
+
+.input {
+    padding: 13px 15px;
 }
 
 button{

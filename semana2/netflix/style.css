@@ -1,6 +1,7 @@
 
 * {
     list-style: none;
+    text-decoration: none;
     margin: 0;
     color: white;
     font-family: 'Inter', sans-serif; 
@@ -12,9 +13,9 @@ body {
     height: 2266.31px; 
     margin-top: -515px;
     margin-left: -756px; */
-    background-image: url("/exerciciosTrelloFMT_modulo2/semana2/netflix/assets/poster.png");
+    background-image: url("/semana2/netflix/assets/poster.png");
     background-size: cover;
-    /* background-attachment: fixed; */
+    background-position: inherit;
     background-repeat: no-repeat;
     /* background-color:rgba(0, 0, 0, 0.75); */
     

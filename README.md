@@ -10,13 +10,15 @@ Este repositório é para minha prática e resolução dos exercícios proposto 
 São 3 aulas na semana (terças, quintas e nas sextas com resolução dos exercícios e tira dúvidas das 19:00 as 22:00 horas) com início no dia 20 de maio de 2024 ate dia 02 de agosto de 2024.
 
 * SEMANA 1 **com o professor Nicholas Macedo**
-       - Introdução a HTML, CSS
+       - Introdução a HTML, CSS      
+       [Repositório das aulas] (https://github.com/FuturoDEV-Trip/M2S01)
 * SEMANA 2 **com o professor Yan Esteves**
        - HTL, CSS, Atributos de Eventos
        - Display, flexbox, Display Grid
        * Dois desafios: calculadora simples e layout da Netflix
-* SEMANA 3 **com o professor**
-       - 
+* SEMANA 3 **com o professor Nicholas Macedo**
+       - Javascript básico: Front end, HTML Semântico para acessibilidade e SEO, DOM e Manipulação de elementos, DOM Manipulação de elementos
+       [Repositório das aulas] (https://github.com/FuturoDEV-Trip/M2S03)
 * SEMANA 4 **com a professora**
        - 
 * SEMANA 5 **com o professor**
@@ -39,6 +41,7 @@ São 3 aulas na semana (terças, quintas e nas sextas com resolução dos exerc�
 - VsCode - aprendendo a usar a ferramenta e suas extensões.
 - GitHub - aprendendo a utilizar sempre enviando ou trazendo para meu local o repositório, fazendo alterações...
 - HTML e CSS
+- Manipulação do DOM
   
 
 ## 🧑🏻‍🏫 Professores
@@ -48,7 +51,7 @@ São 3 aulas na semana (terças, quintas e nas sextas com resolução dos exerc�
 
 ## 📄 Acompanhe as resoluções e dicas de aulas
 
-**FuturoDev - Trip** - [GitHub do curso] (https://github.com/FuturoDEV-Trip/M2S01)
+**FuturoDev - Trip** - [GitHub do curso] (https://github.com/FuturoDEV-Trip)
 
 
 ## 🎁 Expressões de gratidão

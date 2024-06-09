@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Renderização na DOM</title>
+
+    <style>
+      #listaProdutos {
+        width: 400px;
+        background-color: #c8f7f7;
+        list-style-type: none;
+        padding: 0;
+      }
+
+      #listaProdutos li {
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- [M2S03] Ex. 4 - Renderizando listas na DOM - Neste exercício, você deve criar uma página web que exiba uma lista de produtos usando HTML e JavaScript para dinamicamente renderizar os produtos na página e CSS para estilização. -->
+    <h1>Lista de produtos</h1>
+    <form>
+      <ul id="listaProdutos"></ul>
+    </form>
+
+    <script>
+      const produtos = [
+        { nome: "Camiseta", valor: 29.99 },
+        { nome: "Calça Jeans", valor: 49.99 },
+        { nome: "Tênis", valor: 79.99 },
+        { nome: "Boné", valor: 14.99 },
+      ];
+
+      function renderizarLista(produtos) {
+        const listaProdutos = document.getElementById("listaProdutos");
+
+        produtos.forEach((produtos) => {
+          const itemLista = document.createElement("li");
+
+          const nomeProduto = document.createElement("span");
+          nomeProduto.innerHTML = produtos.nome;
+
+          const valorProduto = document.createElement("span");
+          valorProduto.innerHTML = `R$ ${produtos.valor}`;
+
+          itemLista.appendChild(nomeProduto);
+          itemLista.appendChild(valorProduto);
+
+          listaProdutos.appendChild(itemLista);
+        });
+      }
+      renderizarLista(produtos);
+    </script>
+  </body>
+</html>

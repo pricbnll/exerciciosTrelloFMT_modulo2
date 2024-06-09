@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interação com usuário</title>
+</head>
+
+<body>
+    <!-- [M2S03] Ex. 3 - Interação com o Usuário usando prompt e confirm -->
+    <h1>Vamos interagir?</h1>
+    <button id="interagir">Iniciar</button>
+
+    <script>
+        document.getElementById("interagir").addEventListener("click", () => {
+            let nome = prompt("Qual o seu nome?")
+            // console.log("Botão clicado");
+            if (nome) {
+                let confirmar = confirm(`Deseja confirmar seu nome ${nome}?`)
+                if (confirmar){
+                    alert("Ok! Interação concluída.")
+                } else {
+                alert("Tentar interagir novamente.")
+                }
+            } else {
+                alert("Digite seu nome corretamente.")
+            }
+        })
+
+
+
+        // COMO FAZER ISSO? Para exibir mensagens de erro ou confirmação, utilize o alert ou manipule o DOM para mostrar um alerta personalizado. Nesse caso, será necessário utilizar classList.add e classList.remove
+   
+    </script>
+</body>
+</html>

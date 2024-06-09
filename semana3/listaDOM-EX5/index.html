@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de tarefas</title>
+    <style>
+      .lista {
+        list-style-type: decimal;
+        padding: 0;
+      }
+
+      .lista li {
+        padding:10px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 8px;
+        border: 1px solid black;
+        background-color: bisque;
+        width: 350px;
+        cursor: pointer;
+      }
+
+      .lista li.feito {
+        text-decoration: line-through;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- [M2S03] Ex. 5 - Criando um lista de tarefas - Crie uma lista de tarefas (to-do list), onde o usuário pode adicionar tarefas. Use JavaScript para adicionar novos itens à lista e para tornar a tarefa como feita ao clicar no item. -->
+    <h1>Lista de tarefas:</h1>
+    <input type="text" placeholder="Adicione uma tarefa" />
+    <button class="adicionarTarefa">Adicionar Tarefa</button>
+    <form>
+      <ul class="lista"></ul>
+    </form>
+
+    <script>
+      const adicionarTarefa = document.querySelector("input");
+      const listaDeTarefas = document.querySelector(".lista");
+
+      const botaoAdicionar = document.querySelector("button");
+
+      botaoAdicionar.addEventListener("click", () => {
+        
+        const value = adicionarTarefa.value;
+        if (value === "") {
+          alert("Por favor insira uma tarefa");
+          return
+        }
+        const novaTarefa = document.createElement("li");
+        novaTarefa.innerText = value;
+
+        listaDeTarefas.appendChild(novaTarefa);
+
+        novaTarefa.addEventListener("click", () => {
+          novaTarefa.classList.toggle("feito");
+        }); 
+      
+        adicionarTarefa.value = "";
+      });
+      </script>
+  </body>
+  </html>
+

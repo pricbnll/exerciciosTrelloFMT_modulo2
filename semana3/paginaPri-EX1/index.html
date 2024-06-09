@@ -7,41 +7,53 @@
     <meta name="author" content="Priscilla Ilha Carbonell">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site da Pri</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+
 </head>
 <body>
     <!-- [M2S03] Ex.1 - Criar uma página de perfil pessoal utilizando as principais tags HTML
     Nesse exercício, você deve criar uma página utilizando as principais tags HTML, sendo semântico e que inclua um cabeçalho com o seu nome, uma imagem de perfil, uma seção sobre, e uma lista de hard skills e/ou soft skills. -->
         <header>
-            <h1>Priscilla Ilha Carbonell</h1>
-            <img src="/semana3/assets/pi cv.jpeg" alt="foto da Priscilla">
-            <p>Sou estudante do curso FuturoDev no SENAI, com professores do Lab35 onde estamos aprendendo o desenvolvimento web com HTML, CSS, React e JavaScript. Já aprendemos um pouco do backend com Node e API rest. Bora codar!!!!</p>
-            <a href="https://www.linkedin.com/in/priscilla-ilha-carbonell-864a062b/">Linkedin</a>
+                <h1>Priscilla Ilha Carbonell</h1>
+                <img id="fotoPri" src="/exerciciosTrelloFMT_modulo2/semana3/paginaPri-EX1/assets/pi cv.jpeg" alt="foto da Priscilla">
+                <p>Sou estudante do curso FuturoDev no SENAI, com professores do Lab35 onde estamos aprendendo o desenvolvimento web com HTML, CSS, React e JavaScript. Já aprendemos um pouco do backend com Node e API rest.<span >Bora codar!!!!</span></p>
+                
         </header>
-        <main>
-            <ul>
+        <main class="container">
+            <p>Busco colocação como junior para desenvolver junto a uma equipe todos os conhecimentos adquiridos dentro e fora do mundo tecnológico.</p>
+            <section>
                 <h4>Estas são as Hard Skills que estou a desenvolver no momento:</h4>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-            </ul>
-
-            <ul>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </section>
+            <section>
                 <h4>Estas são as Soft Skills que estou a desenvolver no momento:</h4>
-                <li>Comunicação assertiva</li>
-                <li>Foco em produtividade</li>
-                <li>Gerenciamento de tempo</li>
-            </ul>
-
-            <ul>
-                <h4>Estas são as Soft Skills que já fazendo parte da minha rotina:</h4>
-                <li>Integração em equipe</li>
-                <li>Proatividade</li>
-                <li>Resolução de problemas</li>
-            </ul>
+                <ul>
+                    <li>Comunicação assertiva</li>
+                    <li>Foco em produtividade</li>
+                    <li>Gerenciamento de tempo</li>
+                </ul>
+            </section>
+            <section>
+                <h4>Estas são as Soft Skills que já fazem parte da minha rotina:</h4>
+                <ul>
+                    <li>Integração em equipe</li>
+                    <li>Proatividade</li>
+                    <li>Resolução de problemas</li>
+                </ul>
+            </section>
         </main>
         <footer>
             <nav class="contatos">
-                
+                <i class='bx bx-envelope'></i><a href="pricbnll@gmail.com">Email</a>
+                <i class='bx bxl-github'></i><a href="https://github.com/pricbnll">GitHub</a>
+                <i class='bx bxl-linkedin-square' ></i><a href="https://www.linkedin.com/in/priscilla-ilha-carbonell-864a062b/">Linkedin</a>
+                <i class='bx bxs-hand-right'></i><a href="https://www.dio.me/users/pricbnll"> Meu perfil na DIO</a>
             </nav>
 
         </footer>

@@ -91,13 +91,24 @@
           return;
         }
         const novaTarefa = document.createElement("li");
-        novaTarefa.innerText = value;
+        const checkTarefa = document.createElement("input")
+        checkTarefa.type = "checkbox"
 
-        listaDeTarefas.appendChild(novaTarefa);
-
-        novaTarefa.addEventListener("click", () => {
+        checkTarefa.addEventListener("change", () => {
           novaTarefa.classList.toggle("feito");
         });
+
+      //  // Define o conteúdo de texto diretamente no elemento <li> e Adiciona o checkbox no início do <li> depois de definir o texto substituído todo abaixo até o <span> até "novaTarefa.appendChild(tarefaTexto)"
+      //   novaTarefa.textContent = value;
+      //   novaTarefa.insertBefore(checkTarefa, novaTarefa.firstChild);
+
+        novaTarefa.appendChild(checkTarefa);
+
+        const tarefaTexto = document.createElement("span");
+        tarefaTexto.innerText = value;
+        novaTarefa.appendChild(tarefaTexto);
+
+        listaDeTarefas.appendChild(novaTarefa);     
 
         adicionarTarefa.value = "";
       });

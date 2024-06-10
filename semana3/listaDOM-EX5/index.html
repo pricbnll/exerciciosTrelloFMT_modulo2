@@ -7,20 +7,56 @@
     <style>
       body {
         background: linear-gradient(to right, #976a89, #323a84);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
       }
+
+      .container {    
+        background-color: white;
+        height: 300px;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .btn {
+        display: flex;
+        justify-content: center;
+         align-items: center; 
+         margin-top: 20px;     
+      }
+
+      #btnAdicionar {
+        background-color: blue;
+        color: white;
+        cursor: pointer;
+      }
+
+      .border {
+        border: 1px solid rgb(219, 216, 216);
+        border-radius: 5px;
+        padding: 10px;
+      }
+
       .lista {
-        list-style-type: decimal;
         padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
       }
 
       .lista li {
+        margin-left: 56px;
         padding: 10px;
         display: flex;
         align-items: center;
         margin-bottom: 8px;
-        /* border: 1px solid black;
-        background-color: bisque; */
-        width: 350px;
+        width: 100%;
         cursor: pointer;
       }
 
@@ -31,12 +67,16 @@
   </head>
   <body>
     <!-- [M2S03] Ex. 5 - Criando um lista de tarefas - Crie uma lista de tarefas (to-do list), onde o usuário pode adicionar tarefas. Use JavaScript para adicionar novos itens à lista e para tornar a tarefa como feita ao clicar no item. -->
+    <div class="container border">
+      <div class="btn">
+        <input class="border" type="text" placeholder="Adicione uma tarefa" />
+        <button id="btnAdicionar" class="adicionarTarefa border">+</button>
+        <form>
 
-    <input type="text" placeholder="Adicione uma tarefa" />
-    <button class="adicionarTarefa">Adicionar Tarefa</button>
-    <form>
-      <ul class="lista"></ul>
-    </form>
+      </div>
+        <ul class="lista"></ul>
+      </form>
+    </div>
 
     <script>
       const adicionarTarefa = document.querySelector("input");

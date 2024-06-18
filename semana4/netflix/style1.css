@@ -48,10 +48,6 @@ body::before {
     /* margin-left: -756px; */    
 }
 
-nav {
-    margin-top: 400px;
-}
-
 .menu {
     width: 60vw;
     /* height: 850px; */
@@ -69,6 +65,7 @@ nav {
 .main {
     display: flex;
     margin: 0 50px;
+
 }
 
 .content {
@@ -76,7 +73,7 @@ nav {
     display: flex;
     flex-direction: row;
     margin-top: 100px;
-
+    margin-bottom: 150px;
 }
 
 .serie {
@@ -137,22 +134,13 @@ nav {
 }
 
 .social_sharing {
+    position: absolute;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-}
-
-footer {
-    margin-top: 100px;
-    margin-bottom: 350px;
-    text-align: end;
-    margin-right: 40px;
-}
-
-footer span {
-    margin: 0 10px;
+    top: 50%;
+    right: 10px;
+    transform: translate(-50%, 25%);
+    gap:20px;
 }
 
 
@@ -200,9 +188,22 @@ footer span {
     margin-top: 50px;
 }
 
-
 .m-l-40 {
     margin-left: 40px;          
 } 
 
+
+
+/* .ph-30 {
+padding-left: 60px;
+padding-right: 60px;
+}
+
+.gap-150 {
+    gap: 150px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+} */
 

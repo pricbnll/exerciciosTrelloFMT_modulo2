@@ -1,56 +1,134 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Netflix layout</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div  class="container">
-        <nav>
-            <ul class="header">
-                <li><a aria-label="Abre pagina sobre o conteúdo" href="#Sobre">Sobre</a></li>
-                <li><a aria-label="Abre pagina do Trailer" target="_blank"  target="_blank" href="#Trailer">Trailer</a></li> 
-                <li><img src="/exerciciosTrelloFMT_modulo2/semana2/netflix/assets/netflix_logo.png" alt="Logo da netflix png"></li>
-                <li><a aria-label="Abre a pagina sobre os atores" target="_blank" href="#Atores">Atores</a></li>
-                <li><a aria-label="Abre a tela sobre as avaliações" target="_blank" href="#Avaliações">Avaliações</a></li>
-            </ul>            
-        </nav>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul class="menu pointer">
+          <li>
+            <a aria-label="Abre pagina sobre o conteúdo" href="#Sobre">Sobre</a>
+          </li>
+          <li>
+            <a
+              aria-label="Abre pagina do Trailer"
+              target="_blank"
+              target="_blank"
+              href="#Trailer"
+              >Trailer</a
+            >
+          </li>
+          <li>
+            <img
+              src="/semana4/netflix/assets/netflix_logo.png"
+              alt="Logo da netflix png"
+            />
+          </li>
+          <li>
+            <a
+              aria-label="Abre a pagina sobre os atores"
+              target="_blank"
+              href="#Atores"
+              >Atores</a
+            >
+          </li>
+          <li>
+            <a
+              aria-label="Abre a tela sobre as avaliações"
+              target="_blank"
+              href="#Avaliações"
+              >Avaliações</a
+            >
+          </li>
+        </ul>
+      </nav>
 
-        <div class="main">
-            <div class="content">
-                <div class="film">
-                    <h2>Supernatural</h2>
-                    <span>Drama, Mistério, Terror.</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque modi est vero repudiandae cum iure neque at rem odit, explicabo incidunt accusantium. Quo debitis qui maxime dignissimos doloremque accusantium iure.<span>Ler mais.</span></p>
-                </div>
-                <div class="carrossel">
-                    <h4>1 Temporada</h4>
-                    <div class="imagens"> 
-                        <!-- colocar tres box in line (flex)-->
-                        <img src="" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="poster">
-                <img src="/exerciciosTrelloFMT_modulo2/semana2/netflix/assets/poster.png" alt="Poster do filme/serie" srcset="">
+      <div class="main m-t-30">
+        <div class="content">
+          <div class="serie">
+            <h2 class="titulo">Supernatural</h2>
+            <h4 class="genero m-t-12">Drama, Mistério, Terror.</h4>
+            <p class="descricao m-t-30">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque modi est vero repudiandae cum iure neque at rem odit,
+              explicabo incidunt accusantium. Quo debitis qui maxime dignissimos
+              doloremque accusantium iure.<span> Ler mais.</span>
+            </p>
 
+            <div class="carrossel m-t-50">
+              <span>1 Temporada</span>
+              <i class="bx bx-chevron-left bx-sm m-l-40"></i>
+              <i class="bx bx-chevron-right bx-sm"></i>
             </div>
-            
+
+            <div id="listaEpisodio" class="m-t-20">
+            </div>
+          </div>
+          <img
+            class="poster"
+            src="/semana4/netflix/assets/poster.png"
+            alt="Poster do filme/serie"
+          />
         </div>
-        
-        <div class="social_sharing">
-                    <ul>
-                        <li >Instagram</li>
-                        <li>facebook</li>
-                        <li>twitter</li>
-                   </ul>
+
+        <div id="social-midia" class="social_sharing pointer">
+          <i i class="bx bxl-instagram"></i>
+          <span class="iconoir--facebook"></span>
+          <span class="mingcute--twitter-line"></span>
         </div>
-        <footer>
-                
-        </footer>
-        </div>
+      </div>
+      <footer>
+        <span>2005</span>
+        <span>|</span>
+        <span>1 TEMPORADA</span>
+        <span>|</span>
+        <span>IMDB 9.5</span>
+    </footer>
+    
     </div>
-</body>
+    <script>
+      const episodios = [
+        {
+          id: 1,
+          episodio: "T1:01",
+          tempo: "24min",
+        },
+        {
+          id: 2,
+          episodio: "T1:02",
+          tempo: "26min",
+        },
+        {
+          id: 3,
+          episodio: "T1:03",
+          tempo: "29min",
+        },
+      ];
+      const listaEpisodios = document.getElementById("listaEpisodio");
+
+      episodios.forEach((episodio) => {
+        const cardEpisodio = document.createElement("div");
+        cardEpisodio.className = "card-episodio";
+        // cardEpisodio.style = 'background-color: pink'
+        cardEpisodio.innerHTML = `
+                                  <span style="color: black; margin-left: 20px">${episodio.episodio}</span>
+                                  <span style="color: black; margin-left: 20px">${episodio.tempo}</span>
+                                  <button style="color: black; margin-left: 20px" onclick="assistirEpisodio(${episodio.id})">Assistir</button>
+                                `;
+        listaEpisodios.appendChild(cardEpisodio);
+      });
+
+      function assistirEpisodio(id) {
+        console.log("Você clicou para assistir o episódio ", id);
+      }
+    </script>
+  </body>
 </html>

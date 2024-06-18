@@ -53,6 +53,8 @@ São 3 aulas na semana (terças, quintas e nas sextas com resolução dos exerc�
 ## 📄 Acompanhe as resoluções e dicas de aulas
 
 **FuturoDev - Trip** - [GitHub do curso] (https://github.com/FuturoDEV-Trip)
+**FuturoDev - Trip/Nature** - [GitHub das aulas do Yan] (https://github.com/yanestevesufjf/nature_trip_modulo2.git)
+
 
 
 ## 🎁 Expressões de gratidão

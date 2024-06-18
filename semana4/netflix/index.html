@@ -15,38 +15,21 @@
       <nav>
         <ul class="menu pointer">
           <li>
-            <a aria-label="Abre pagina sobre o conteúdo" href="#Sobre">Sobre</a>
+            <a aria-label="Abre pagina sobre o conteúdo" target="_blank" href="#Sobre">Sobre</a>
           </li>
           <li>
-            <a
-              aria-label="Abre pagina do Trailer"
-              target="_blank"
-              target="_blank"
-              href="#Trailer"
-              >Trailer</a
-            >
+            <a aria-label="Abre pagina do Trailer" target="_blank" href="#Trailer">Trailer</a>
           </li>
           <li>
-            <img
-              src="/semana4/netflix/assets/netflix_logo.png"
-              alt="Logo da netflix png"
-            />
+            <a href="https://www.netflix.com/br/">
+              <img src="/semana4/netflix/assets/netflix_logo.png" alt="Logo da netflix png"/>
+            </a>
           </li>
           <li>
-            <a
-              aria-label="Abre a pagina sobre os atores"
-              target="_blank"
-              href="#Atores"
-              >Atores</a
-            >
+            <a aria-label="Abre a pagina sobre os atores" target="_blank" href="#Atores">Atores</a>
           </li>
           <li>
-            <a
-              aria-label="Abre a tela sobre as avaliações"
-              target="_blank"
-              href="#Avaliações"
-              >Avaliações</a
-            >
+            <a aria-label="Abre a tela sobre as avaliações" target="_blank" href="#Avaliações">Avaliações</a>
           </li>
         </ul>
       </nav>
@@ -95,6 +78,34 @@
     
     </div>
     <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuItems = document.querySelectorAll('.menu a');
+
+            menuItems.forEach(item => {
+                item.addEventListener('click', function(event) {
+                    event.preventDefault(); // Evita o comportamento padrão do link (não redireciona)
+
+                    // Exibe a mensagem 'Página em construção'
+                    alert('Página em construção');
+                });
+            });
+        });
+
+
+        document.getElementById('social-midia').addEventListener("click", () =>{
+          let url = '';
+            if (event.target.classList.contains('bxl-instagram')) {
+                url = 'https://www.instagram.com';
+            } else if (event.target.classList.contains('iconoir--facebook')) {
+                url = 'https://www.facebook.com';
+            } else if (event.target.classList.contains('mingcute--twitter-line')) {
+                url = 'https://www.twitter.com';
+            }
+            if (url) {
+                window.open(url, '_blank');
+            }
+        });
+
       const episodios = [
         {
           id: 1,

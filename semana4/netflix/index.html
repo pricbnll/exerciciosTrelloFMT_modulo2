@@ -125,7 +125,7 @@
 
       episodios.forEach((episodio) => {
         const cardEpisodio = document.createElement("div");
-        cardEpisodio.className = "card-episodio";
+        cardEpisodio.className = "card-episodio pointer";
         // cardEpisodio.style = 'background-color: pink'
         cardEpisodio.innerHTML = `
                                   <span style="color: black; margin-left: 20px">${episodio.episodio}</span>
@@ -134,6 +134,15 @@
                                 `;
         listaEpisodios.appendChild(cardEpisodio);
       });
+
+      //  // Adiciona eventos de mouse para aumentar o card ao passar o mouse
+      // cardEpisodio.addEventListener('mouseover', () => {
+      //   cardEpisodio.classList.add('card-episodio-hover');
+      // });
+
+      // cardEpisodio.addEventListener('mouseleave', () => {
+      //   cardEpisodio.classList.remove('card-episodio-hover');
+      // });
 
       function assistirEpisodio(id) {
         console.log("Você clicou para assistir o episódio ", id);

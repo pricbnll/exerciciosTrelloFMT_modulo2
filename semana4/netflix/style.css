@@ -124,10 +124,18 @@ nav {
     margin-right: 40px;
 }
 
-.card-episodio button {
+/* .card-episodio-hover {
+    transform: scale(1.1);
+} */
+
+.card-episodio:hover {
+    transform: scale(1.1);
+}
+
+/* .card-episodio button {
     height: 20%;
 
-}
+} */
 
 .poster {
     width: 392px;

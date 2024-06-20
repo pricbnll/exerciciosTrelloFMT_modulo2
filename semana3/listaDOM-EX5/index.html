@@ -6,6 +6,17 @@
     <meta name="description" content="Exercícios da aula da semana 3 com o professor Nicholas - Lista de tarefas."/>
     <title>Lista de tarefas</title>
     <style>
+      * {
+        margin: 0;
+        box-sizing: border-box;
+      }
+      
+      h1 {
+        font-weight: 300;
+        color: rgb(86, 100, 126);
+      }
+
+
       body {
         background: linear-gradient(to right, #976a89, #323a84);
         display: flex;
@@ -14,6 +25,8 @@
         height: 100vh;
         margin: 0;
       }
+
+      
 
       .container {    
         background-color: white;
@@ -69,12 +82,12 @@
   <body>
     <!-- [M2S03] Ex. 5 - Criando um lista de tarefas - Crie uma lista de tarefas (to-do list), onde o usuário pode adicionar tarefas. Use JavaScript para adicionar novos itens à lista e para tornar a tarefa como feita ao clicar no item. -->
     <div class="container border">
+      <h1>Lista de Tarefas</h1>
       <div class="btn">
         <input class="border" type="text" placeholder="Adicione uma tarefa" />
-        <button id="btnAdicionar" class="adicionarTarefa border">+</button>
-        <form>
-
+        <button id="btnAdicionar" class="adicionarTarefa border">+</button>  
       </div>
+      <form>
         <ul class="lista"></ul>
       </form>
     </div>

@@ -44,6 +44,7 @@ São 3 aulas na semana (terças, quintas e nas sextas com resolução dos exerc�
 - GitHub - aprendendo a utilizar sempre enviando ou trazendo para meu local o repositório, fazendo alterações...
 - HTML e CSS
 - Manipulação do DOM
+- Javascript
   
 
 ## 🧑🏻‍🏫 Professores

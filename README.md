@@ -19,14 +19,21 @@ São 3 aulas na semana (terças, quintas e nas sextas com resolução dos exerc�
 * SEMANA 3 **com o professor Nicholas Macedo**
        - Javascript básico: Front end, HTML Semântico para acessibilidade e SEO, DOM e Manipulação de elementos, DOM Manipulação de elementos
        [Repositório das aulas] (https://github.com/FuturoDEV-Trip/M2S03)
-* SEMANA 4 **com a professora Yan Esteves**
+* SEMANA 4 **com a professor Yan Esteves**
        - Alterando estilos e propriedades, Selecionando elementos (queries), Criando e modificando elementos - exercícios do Netflix
        [Google drive do professor](https://drive.google.com/drive/folders/1Jc7Ly2QPKqCefpoqw5PdalY12kEExJ71)
 * SEMANA 5 **com o professor Nicholas Macedo****
        - Assincronicidade Web APIl, Consumo de API, LocalStorage
        [Code SandBox Aula1](https://codesandbox.io/p/devbox/r2wp4z?migrateFrom=dmcxk2&layout=%257B%2522sidebarPanel%2522%253A%2522EXPLORER%2522%252C%2522rootPanelGroup%2522%253A%257B%2522direction%2522%253A%2522horizontal%2522%252C%2522contentType%2522%253A%2522UNKNOWN%2522%252C%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522id%2522%253A%2522ROOT_LAYOUT%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522UNKNOWN%2522%252C%2522direction%2522%253A%2522vertical)
-* SEMANA 6 **com a professora**
-       - 
+* SEMANA 6 **com a professor Yan Esteves**
+       - React Inicial
+       - Introdução ao React, Primeiros passos e Preparação do ambiente
+       - Componentes funcionais e reutilizáveis
+       - Sintaxe JSX (tipos de retorno, renderização de listas e condicionais)
+       - Props e PropTypes para validação
+       - Ciclo de Vida de Eventos
+       - Fluxo de dados em um aplicativo React
+       [Repositório do professor] (https://github.com/yanestevesufjf/react_trip)
 * SEMANA 7**com o professor**
        - 
 * SEMANA 8 **com o professor**
@@ -56,7 +63,6 @@ São 3 aulas na semana (terças, quintas e nas sextas com resolução dos exerc�
 
 **FuturoDev - Trip** - [GitHub do curso] (https://github.com/FuturoDEV-Trip)
 **FuturoDev - Trip/Nature** - [GitHub das aulas do Yan] (https://github.com/yanestevesufjf/nature_trip_modulo2.git)
-
 
 
 ## 🎁 Expressões de gratidão

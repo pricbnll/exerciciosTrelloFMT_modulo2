@@ -24,6 +24,7 @@ São 3 aulas na semana (terças, quintas e nas sextas com resolução dos exerc�
 * SEMANA 5 **com o professor Nicholas Macedo****
        - Assincronicidade Web APIl, Consumo de API, LocalStorage
        [Code SandBox Aula1](https://codesandbox.io/p/devbox/r2wp4z?migrateFrom=dmcxk2&layout=%257B%2522sidebarPanel%2522%253A%2522EXPLORER%2522%252C%2522rootPanelGroup%2522%253A%257B%2522direction%2522%253A%2522horizontal%2522%252C%2522contentType%2522%253A%2522UNKNOWN%2522%252C%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522id%2522%253A%2522ROOT_LAYOUT%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522UNKNOWN%2522%252C%2522direction%2522%253A%2522vertical)
+       PS. Os exercíciios da semana 5 e 6 foi no MiniProjeto que se encontro [neste repositório](https://github.com/pricbnll/listaInteresses) 
 <<<<<<< HEAD
 * SEMANA 6 
        (Folga)
@@ -53,7 +54,8 @@ São 3 aulas na semana (terças, quintas e nas sextas com resolução dos exerc�
 - GitHub - aprendendo a utilizar sempre enviando ou trazendo para meu local o repositório, fazendo alterações...
 - HTML e CSS
 - Manipulação do DOM
-- Javascript
+- Javascrip
+- React
   
 
 ## 🧑🏻‍🏫 Professores

@@ -8,11 +8,13 @@
 #root {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .footer {
     background-color: var(--black);
     color: var(--white);
+    width: 100vw;
     position: fixed;
     bottom: 0;
     display: grid;
@@ -39,6 +41,7 @@
     height: 1px;
     background: var(--line);
     margin: 20px 0;
+    width: 350px;
 }
 
 .footer li {

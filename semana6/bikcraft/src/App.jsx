@@ -1,6 +1,4 @@
 import { useState } from "react";
-// import reactLogo from "./assets/react.svg";
-// import viteLogo from "/vite.svg";
 import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -9,14 +7,15 @@ import Footer from "./components/Footer";
 import "../pages/Contact.css"
 
 function App() {
-  // const [count, setCount] = useState(0);
 
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  const [message, setMessage] = useState("O que você precisa?");
 
-  function handleSubmit() {
+  function handleSubmit(e) {
+    e.preventDefault();
+    // console.log('handle submit')
     const form = {
       name,
       phone,
@@ -24,6 +23,18 @@ function App() {
       message,
     };
     console.log("Formulário a ser enviado: ", form);
+
+    // Resetando os campos de entrada
+    setName("");
+    setPhone("");
+    setEmail("");
+    setMessage("O que você precisa?");
+  }
+
+  function handleFocus() {
+    if (message === "O que você precisa?") {
+      setMessage("");
+    } 
   }
 
   return (
@@ -67,13 +78,12 @@ function App() {
               type="text"
               name="message"
               value={message}
+              onFocus={handleFocus}
               onChange={(e) => setMessage(e.target.value)}
-            >
-              o que você precisa?
-            </textarea>
+            />
           </div>
 
-          <button onClick={() => handleSubmit()}>ENVIAR MENSAGEM</button>
+          <button onClick={(e) => handleSubmit(e)}>ENVIAR MENSAGEM</button>  {/* este (e) deve estar presente senão não chama console.log */}
         </form>
       </section>
 

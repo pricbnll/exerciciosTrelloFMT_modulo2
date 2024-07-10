@@ -2,24 +2,6 @@ import { useState } from "react";
 import "./Contact.css";
 
 function Contact() {
-  const [name, setName] = useState('');
-  const [phone, setPhone] = useState('')
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
-
-  function handleSubmit(){
-    const form = {
-      name,
-      phone,
-      email,
-      message
-    }
-    console.log('Dados do usuário:', { name, phone, email, message }); 
-    
-    //posso colocar ('Dados do usuario:', {form}) ??????
-  }
-
-
   return (
     <>
       <main>
@@ -73,27 +55,6 @@ function Contact() {
             </div>
           </section> */}
 
-          <section className="input">
-            <form className="user-contact">
-              <div>
-                <label htmlFor="name">Nome</label>
-                <input type="text" placeholder="Seu nome" value= {name} onChange= {(e) => setName(e.target.value)} />
-        
-                <label htmlFor="phone">Telefone</label>
-                <input type="text" placeholder="(21) 9999-9999" value= {phone} onChange= {(e) => setPhone(e.target.value)} />
-              </div>
-              <div className="email">
-                <label htmlFor="email">Email</label>
-                <input type="email" placeholder="contato@email.com" value= {email} onChange= {(e) => setEmail(e.target.value)}/>
-              </div>
-              <div>
-                <label htmlFor="message">Mensagem</label>
-                <textarea type="text"name="message" value= {message} onChange= {(e) => setMessage(e.target.value)}>o que você precisa?</textarea>
-              </div>
-              
-              <button onClick={() => handleSubmit()}>ENVIAR MENSAGEM</button>
-            </form>
-          </section>
         {/* </div> */}
       </main>
     </>

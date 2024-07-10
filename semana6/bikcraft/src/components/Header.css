@@ -17,13 +17,10 @@
     justify-content: space-between;
     align-items: center;
     height: 100px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-left: 500px;
-    padding-right: 500px;
     position: fixed;
     top: 0;
 }
+
 
 .header ul{
     display: flex;
@@ -34,3 +31,4 @@
     list-style-type: none;
     font: 400 1.125rem / 1.35 "Poppins", sans-serif;
 }
+

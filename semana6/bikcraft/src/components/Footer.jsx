@@ -3,9 +3,9 @@ import './Footer.css'
 function Footer() {
     return (
         <>
-        <footer  className='footer'>
+        <footer  className="footer "> {/* footer  p-l-500 p-r-300 */}
                      
-            <img src="https://www.origamid.com/projetos/bikcraft/img/bikcraft.svg" alt="Logo Bikcraft" />
+            <img className="p-rl-20" src="https://www.origamid.com/projetos/bikcraft/img/bikcraft.svg" alt="Logo Bikcraft" />
         
             <div className='contact'>
                 <h3>CONTATO</h3>

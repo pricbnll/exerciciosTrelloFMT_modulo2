@@ -9,19 +9,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    min-height: 100vh; /* Garante que o conteúdo ocupe pelo menos a altura total da janela */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Empurra o footer para o final */
 }
 
 .footer {
     background-color: var(--black);
     color: var(--white);
     width: 100vw;
-    position: fixed;
-    bottom: 0;
+    /* position: fixed; */
+    /* bottom: 0; */
     display: grid;
     grid-template-columns: 3fr 5fr 4fr;
     gap: 40px;
-    padding-left: 500px;
-    padding-right: 300px;
     padding-top: 60px;
     padding-bottom: 60px;
     text-align: left;

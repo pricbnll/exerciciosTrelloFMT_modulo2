@@ -3,7 +3,7 @@ import './Header.css'
 function Header () {
     return (
         <>
-        <div className="header">
+        <div className="header p-rl-20"> {/* "header p-l-500 p-r-500" */}
 
             <img src="https://www.origamid.com/projetos/bikcraft/img/bikcraft.svg" alt="Logo Bikcraft" />
             

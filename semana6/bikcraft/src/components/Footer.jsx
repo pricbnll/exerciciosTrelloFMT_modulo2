@@ -43,7 +43,7 @@ function Footer() {
                     <li>Termos e Condições</li>
                 </ul>
             </nav>
-            <p>Bikcraft © Alguns direitos reservados.</p>
+            <p className="p-rl-20">Bikcraft © Alguns direitos reservados.</p>
         </footer>
         </>
     )

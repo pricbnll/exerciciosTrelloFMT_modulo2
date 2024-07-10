@@ -13,11 +13,11 @@ function Footer() {
                     <li>+55 21 9999-9999</li>
                     <li>contato@bikcraft.com</li>
                     {/* linha */}
-                    <hr class="separator"/>
+                    <hr className="separator"/>
                     <li>Rua Ali Perto, 42 - Botafogo</li>
                     <li>Rio de Janeiro - RJ</li>
                     {/* linha */}
-                    <hr class="separator"/>
+                    <hr className="separator"/>
                 </ul>          
                   
                 <div className="social-midia">

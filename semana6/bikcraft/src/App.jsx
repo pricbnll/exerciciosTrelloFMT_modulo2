@@ -45,7 +45,7 @@ function App() {
 
       <section aria-label="Formulary">
         <form className="form">
-          <div class="form-group inline">
+          <div className="form-group inline">
             <div>
               <label htmlFor="name">Nome</label>
               <input
@@ -66,7 +66,7 @@ function App() {
             </div>
           </div>
 
-          <div class="form-group column">
+          <div className="form-group column">
             <div>
               <label htmlFor="email">Email</label>
               <input
@@ -89,7 +89,7 @@ function App() {
             </div>
             <button className="button" onClick={(e) => handleSubmit(e)}>
               ENVIAR MENSAGEM
-            </button>{" "}
+            </button>
             {/* este (e) deve estar presente senão não chama console.log */}
           </div>
         </form>

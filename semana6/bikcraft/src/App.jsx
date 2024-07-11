@@ -41,6 +41,7 @@ function App() {
       <Header></Header>
 
       {/* <CardBikes></CardBikes> */}
+      
       {/* <Contact></Contact> */}
 
       <section aria-label="Formulary">

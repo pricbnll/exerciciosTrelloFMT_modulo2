@@ -41,6 +41,7 @@ São 3 aulas por semana (terças, quintas e sextas, com resolução dos exercíc
   - Introdução a React Hooks
   - Fluxo de dados em um aplicativo React
   - PropTypes, useState/useEffect, useRef Controlados x Não Controlados, Custom Hooks
+  - - O exercício da semana 7, sendo um contador, se encontra [neste repositório](https://github.com/pricbnll/contador)
 
 ### SEMANA 8 **com o professor**
 - Conteúdo a ser definido

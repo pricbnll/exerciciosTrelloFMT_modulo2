@@ -34,14 +34,17 @@ São 3 aulas por semana (terças, quintas e sextas, com resolução dos exercíc
   - React Inicial, Introdução ao React, Primeiros passos e Preparação do ambiente
   - Componentes funcionais e reutilizáveis, Sintaxe JSX (tipos de retorno, renderização de listas e condicionais)
   - Props e PropTypes para validação, Ciclo de Vida de Eventos, Fluxo de dados em um aplicativo React
+  
   - [Repositório do professor](https://github.com/yanestevesufjf/react_trip)
+  
   - O exercício da semana 6 foi do site [Bikcraft](https://www.origamid.com/projetos/bikcraft/) que se encontra [neste repositório](https://github.com/pricbnll/bikcraft)
 
 ### SEMANA 7 **com o professor Nicholas Macedo**
   - Introdução a React Hooks
   - Fluxo de dados em um aplicativo React
   - PropTypes, useState/useEffect, useRef Controlados x Não Controlados, Custom Hooks
-  - - O exercício da semana 7, sendo um contador, se encontra [neste repositório](https://github.com/pricbnll/contador)
+  
+  - O exercício da semana 7, sendo um contador, se encontra [neste repositório](https://github.com/pricbnll/contador)
 
 ### SEMANA 8 **com o professor**
 - Conteúdo a ser definido
